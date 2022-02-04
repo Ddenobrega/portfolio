@@ -4,7 +4,7 @@ Porfolio Webiste. located at https://ddenobrega/github.io/portfolio
 
 ## Screenshot
 
-![Portfolio]('https://github.com/ddenobrega/portfolio/blob/main/portfolio.png)
+![Portfolio](https://github.com/ddenobrega/portfolio/blob/main/portfolio.png)
 
 ## Usage
 
