@@ -58,6 +58,9 @@
 		font-size: 1rem;
 		padding-bottom: 1rem;
 	}
+	.item:hover {
+		box-shadow: 0 0 10px var(--fg-alt);
+	}
 
 	.lin {
 		text-decoration: none;

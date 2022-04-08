@@ -64,7 +64,9 @@
 	.pmain {
 		display: flex;
 		flex: 1;
-		gap: 1rem;
+		gap: 3rem;
+		justify-content: center;
+		padding: calc(100% / 16);
 		flex-wrap: wrap;
 	}
 </style>
