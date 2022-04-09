@@ -3,8 +3,8 @@
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
-	padding: 2rem;
 	gap: 0.5rem;
+	padding: 2rem calc(100% / 8);
 }
 .contact-form input {
 	background-color: var(--bg-alt-alt);
@@ -12,7 +12,8 @@
 	border-radius: 1rem;
 	border-color: var(--fg-alt);
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
+	font-size: 1rem;
 	padding: 1rem;
 }
 
@@ -24,6 +25,9 @@
 	border-style: solid;
 	border-width: 1px;
 	padding: 1rem;
+	min-height: 5rem;
+	border-width: 2px;
+	font-size: 1rem;
 }
 
 .contact-form button {
@@ -34,9 +38,17 @@
 	border-style: solid;
 	border-color: var(--fg);
 	border-width: 1px;
+
+	border-width: 2px;
+	font-size: 1rem;
+	padding: 0.5rem 0;
 }
 
 .contact-form button:hover {
 	color: var(--fg-alt);
 	border-color: var(--fg-alt);
+}
+
+::placeholder {
+	color: var(--fg);
 }

@@ -1,10 +1,10 @@
 :root {
-	--bg: #3d0e35;
-	--bg-alt: #220b34;
-	--bg-alt-alt: #721536;
-	--sep: #571135;
-	--fg: #dd4545;
-	--fg-alt: #006466;
+	--bg: #181818;
+	--bg-alt: #141414;
+	--bg-alt-alt: #d83a3a;
+	--sep: #ca2a2a;
+	--fg: #ddd;
+	--fg-alt: #fff;
 }
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
@@ -24,7 +24,9 @@ p {
 	padding: 1rem calc(100% / 8);
 	font-size: 1.25rem;
 	z-index: 2;
+	/*
 	text-shadow: 2px 2px 2px var(--bg-alt);
+	*/
 }
 
 .sep {
@@ -45,6 +47,8 @@ h2 {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
+	position: relative;
+	z-index: 2;
 }
 
 .hide-icon {
