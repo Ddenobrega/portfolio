@@ -16,7 +16,7 @@ export default class ParticleComponent extends Component {
 							value: "",
 						},
 					},
-					fpsLimit: 120,
+					fpsLimit: 30,
 					interactivity: {
 						events: {
 							onClick: {
