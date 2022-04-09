@@ -16,7 +16,7 @@ export default class ParticleComponent extends Component {
 							value: "",
 						},
 					},
-					fpsLimit: 30,
+					fpsLimit: 120,
 					interactivity: {
 						events: {
 							onClick: {
@@ -54,7 +54,7 @@ export default class ParticleComponent extends Component {
 							width: 0.5,
 						},
 						collisions: {
-							enable: true,
+							enable: false,
 						},
 						move: {
 							direction: "none",
