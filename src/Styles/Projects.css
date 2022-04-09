@@ -1,8 +1,8 @@
 .projects-container {
 	display: flex;
-	padding: 1rem;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin: 0.5rem;
 }
 .project-container {
 	display: flex;
@@ -12,9 +12,9 @@
 	background-color: var(--bg-alt-alt);
 	border-radius: 2rem;
 	padding: 1rem;
-	width: 45%;
-	margin: 0.5rem;
+	width: 40%;
 	justify-content: space-around;
+	margin: 0.5rem 0;
 }
 
 .project-icons {
@@ -112,7 +112,7 @@ h2 {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 1008px) {
+@media screen and (max-width: 800px) {
 	.project-container {
 		width: 100%;
 	}
