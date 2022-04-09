@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"homepage": "https://ddenobrega.github.io/portfolio",
+	"homepage": "https://ddenobrega.github.io/portfolio/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -24,7 +24,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"deploy": "gh-pages -b react-typesafe -d build"
+		"deploy": "gh-pages -b pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
