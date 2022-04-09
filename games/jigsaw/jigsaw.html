@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../main.css">
+  <link rel="stylesheet" href="./jigsaw.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="snapfit.js"> </script>
+  <title>Ddenobrega | Index</title>
+</head>
+<body>
+  <div class="header-main">
+  <h1>Daryl DeNobrega</h1>
+  </div>
+  <div class="links">
+    | <a href="../../index.html">Home</a> |
+    <a onclick="leaveSite()" href="./jigsaw.html">My Github </a> |
+    <a href="../../contact.html">Contact Me </a> |
+    <a href="../../legal.html">Legal Notice </a>  
+    |<a href="../../projects.html"> Projects</a> |
+  </div>
+  <div class = "bio"> 
+    <div class="bio-header">
+      <h2>JigSaw puzzles</h2>
+    </div>
+    <div id="bio-body" class="bio-body">
+    <span id=time class=timer>Time: 0s</span>
+    <div id="jigsaw-container" onLoad="displayImage();">
+      <h2> Loading...</h2>
+    </div>
+    <span> Difficulty: </span><select id="level" class="difficulty" size="1" onchange="snapfit.reset(document.getElementById('jigsaw'),parseInt(this.options[this.selectedIndex].value));">
+      <option value="0">160px Noob</option>
+      <option value="1">128px Very Easy</option>
+      <option value="2">104px Easy</option>
+      <option value="3" selected="selected">080px Average Joe</option>
+      <option value="4">064px Above Average</option>
+      <option value="5">056px Quite Hard</option>
+      <option value="6">048px Alright What</option>
+    </select>
+    <button class="projects-btn" onclick="location.reload();"> New Puzzle </button>
+    <button class="projects-btn" type="button" onclick="snapfit.admix(document.getElementById('jigsaw'));start();">Start</button>
+    <button class="projects-btn"type="button" onclick="snapfit.solve(document.getElementById('jigsaw'));">Solve</button>
+    </div>
+  </div>
+<script src="../../main.js"></script>
+<script src="jigsaw.js"></script>
+</body>
+</html>

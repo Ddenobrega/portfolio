@@ -1,0 +1,17 @@
+#box{
+    background-color: white;
+    height: 600px;
+    width: 100%;
+}
+.player{
+    height: 2em;
+    width: 2em;
+    background-color: red;
+    margin-left: 0;
+    margin-top: 0;
+    size: auto;
+    position: absolute;
+}
+.play{
+    padding: 2em;
+}
