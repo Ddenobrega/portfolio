@@ -3,7 +3,7 @@
 My Portfolio Website Hosted on Github pages made with reactjs and typescript
 <br/>
 
-## Deploying a Copy
+## Getting Started
 
 ```
 git clone https://github.com/ddenobrega/portfolio
