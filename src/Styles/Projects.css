@@ -62,8 +62,7 @@
 }
 
 .project-container:hover {
-	box-shadow: 4px 4px 10px var(--fg-alt);
-	transform: scale(1.05);
+	box-shadow: 1px 1px 10px var(--fg-alt);
 }
 
 div.project-row-1 {
