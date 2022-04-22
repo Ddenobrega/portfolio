@@ -16,7 +16,7 @@ export default class App extends Component {
 				<Header />
 				<p>
 					I'm Software Engineer, Security Researcher and IT Specialist
-					with {this.calcYears()} + years of hands on experience developing, maintaining
+					with {this.calcYears()}+ years of hands on experience developing, maintaining
 					and deploying solutions using a range of strategies,
 					programming languages and tech stacks. I've led teams of 3-5
 					people across Frontend, API, Graphic/Design and Backend
