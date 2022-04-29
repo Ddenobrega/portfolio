@@ -3,6 +3,7 @@ import "../Styles/Footer.css";
 import { Icon } from "@iconify/react";
 // @ts-ignore
 import CV from "../Assets/Documents/CV.pdf";
+import HexBg from "./HexBg";
 
 class Socials extends Component {
   render() {
@@ -38,7 +39,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer>
-        <svg
+        {/* <svg
           className="hex"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           width="100%"
@@ -63,7 +64,8 @@ export default class Footer extends Component {
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#hexagons)" />
-        </svg>
+        </svg> */}
+        <HexBg />
         <Socials />
         <div>
           <h3>More Information</h3>
