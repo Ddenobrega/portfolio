@@ -1,61 +1,66 @@
 :root {
-	--bg: #181818;
-	--bg-alt: #141414;
-	--bg-alt-alt: #d83a3a;
-	--sep: #ca2a2a;
-	--fg: #ddd;
-	--fg-alt: #fff;
+  --bg: #181818;
+  --bg-alt: #141414;
+  --bg-alt-alt: #d83a3a;
+  --sep: #ca2a2a;
+  --fg: #ddd;
+  --fg-alt: #fff;
 }
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 html,
 body {
-	margin: 0;
-	padding: 0;
-	background-color: var(--bg);
-	z-index: 1;
-	font-family: "JetBrains Mono";
-	color: var(--fg);
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  z-index: 1;
+  font-family: "JetBrains Mono";
+  color: var(--fg);
 }
 
 p {
-	background: none;
-	position: relative;
-	padding: 1rem calc(100% / 8);
-	font-size: 1.25rem;
-	z-index: 2;
-	/*
+  background: none;
+  position: relative;
+  padding: 1rem calc(100% / 8);
+  font-size: 1.25rem;
+  z-index: 2;
+  /*
 	text-shadow: 2px 2px 2px var(--bg-alt);
 	*/
 }
 
 .sep {
-	border: none;
-	height: 1px;
-	margin: 0 2rem;
-	border-color: var(--sep);
-	background-color: var(--sep);
-	text-shadow: var(--fg-alt);
-	box-shadow: var(--fg-alt);
+  border: none;
+  height: 1px;
+  margin: 0 2rem;
+  border-color: var(--sep);
+  background-color: var(--sep);
+  text-shadow: var(--fg-alt);
+  box-shadow: var(--fg-alt);
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 .hide-button {
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	position: relative;
-	z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 2;
 }
 
 .hide-icon {
-	font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .hide-icon:hover {
-	cursor: pointer;
-	color: var(--fg-alt);
+  cursor: pointer;
+  color: var(--fg-alt);
+}
+
+.experience {
+  color: var(--sep);
+  transition: visibility 0s linear 0s, opacity 300ms;
 }
