@@ -24,7 +24,7 @@ export default class App extends Component<{}, { content: string }> {
           className="App"
           onMouseEnter={() =>
             this.setState({
-              content: ` ${this.calcYears().toString()} years `,
+              content: ` ${this.calcYears().toString()}+ years `,
             })
           }
           onMouseLeave={() =>
